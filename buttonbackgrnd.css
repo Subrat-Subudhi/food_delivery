@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid lavenderblush;
+    
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}

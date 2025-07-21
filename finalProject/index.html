@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Somanato</h1>
+        <h4>Bhubneswar resturants are waiting for you...</h4>
+        <div id="head">
+            <button id = "filters">filters</button>
+            <button id = "petfriendly">pet friendly</button>
+            <button id = "rating4.5+">rating 4+</button>
+            <button id = "outdoorseating">outdoorseating</button>
+            <button id = "servesalcohol">serves alcohol</button>
+            <button id="opennow">open now</button>
+        </div>
+    </div>
+    <div id="filterPopup" class = "hidden">
+        <h3>Choose Filter</h3>
+        <div class="filteroption">
+            <label for="byrating">
+                <input type="radio" id="byrating" name="filteroption" value = "rating">Rating:high to low
+            </label>
+        </div>
+        <div class="filteroption">
+            <label for="sortlowtohigh">
+                <input type="radio" id="sortlowtohigh" name="filteroption" value = "lowtohigh">Cost: low to high
+            </label>
+        </div>
+        <div class="filteroption">
+            <label for="sorthightolow">
+                <input type="radio" id="sorthightolow" name="filteroption" value="hightolow">Cost: high to low
+            </label>
+        </div>
+        <div class="filteroption">
+            <label for="sortdistance">
+                <input type="radio" id="sortdistance" name="filteroption" value = "neardistance">Nearest to you
+            </label>
+        </div>
+        <button id="apply">Apply</button>
+        <button id="close">Close</button>
+    </div>
+    <div id="root"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
